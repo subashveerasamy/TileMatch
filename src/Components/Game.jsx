@@ -85,7 +85,7 @@ const Game = () => {
         const newTiles=[...tiles];
       
         const prevTile= tiles.filter((tile) => tile.isFlipped)[0];
-        console.log(prevTile);
+      
        
         newTiles[index].isFlipped=true ;
       

@@ -15,7 +15,7 @@ const App = () => {
     password:""
   },
   onSubmit:({email, password}, {resetForm}) =>{
-    console.log({email, password});
+   
     if(email === "ssubash042@gmail.com" && password === "123")
      { alert("Login Successful");
       setIsLoggedIn(true);
