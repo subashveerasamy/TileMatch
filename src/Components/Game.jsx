@@ -6,14 +6,14 @@ import MyContext from '../Context/MyContext';
 
 const Game = () => {
     
-    const afg="https://www.worldometers.info/img/flags/af-flag.gif"
-    const andorra="https://www.worldometers.info/img/flags/an-flag.gif";
-    const azerbaijan= "https://www.worldometers.info/img/flags/aj-flag.gif";
-    const barbados= "https://www.worldometers.info/img/flags/bb-flag.gif";
-    const beliz= "https://www.worldometers.info/img/flags/bh-flag.gif";
-    const bhutan= "https://www.worldometers.info/img/flags/bt-flag.gif";
-    const brunei= "https://www.worldometers.info/img/flags/bx-flag.gif";
-    const cambodia= "https://www.worldometers.info/img/flags/cb-flag.gif"
+    const afg="/af-flag.gif"
+    const andorra="/an-flag.gif";
+    const azerbaijan= "/aj-flag.gif";
+    const barbados= "/bb-flag.gif";
+    const beliz= "/bh-flag.gif";
+    const bhutan= "/bt-flag.gif";
+    const brunei= "/bx-flag.gif";
+    const cambodia= "/cb-flag.gif"
     const arr=[
         {
             value: "afg", logo: afg, isFlipped: false, isMatched: false
